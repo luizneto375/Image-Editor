@@ -15,9 +15,40 @@
   <div class="editor-painel">
     <div class="filter">
       <label class="Filters">Filters</label>
-      <div class="options"></div>
-      <i class="fa-solid fa-arrow-rotate-right"></i>
+      <div class="options">
+        <button id="brightness" class="active">Brightnees</button>
+        <button id="saturation">Saturation</button>
+        <button id="inversion">Inversion</button>
+        <button id="grayscale">Grayscale</button>
+      </div>
+      <div class="slider">
+        <div class="filter-info">
+          <p class="name">Brighteness</p>
+          <p class="value">100%</p>
+        </div>
+        <input type="range" value="100" min="0" max="200">
+      </div>
     </div>
+    <div class="rotate">
+      <label class="title">Rotate & Flip</label>
+      <div class="options">
+        <button id="left"><i class="fa-solid fa-rotate-left"></i></button>
+        <button id="right"><i class="fa-solid fa-rotate-right"></i></button>
+        <button id="horizontal"><i class="fa-solid fa-left-right"></i></button>
+        <button id="verical"><i class="fa-solid fa-arrows-up-down"></i></button>
+      </div>
+    </div>
+  </div>
+  <div class="preview-img">
+    <img src="imagens/580b585b2edbce24c47b2c57.png" alt="carro">
+  </div>
+</div>
+<div class="controls">
+  <button class="reset-filter">Reset Filters</button>
+  <div class="row">
+    <input type="file" class="file-input" accept="imagens/*" hidden>
+    <button class="choose-img">Chosse Image</button>
+    <button class="save-img">Save Image</button>
   </div>
 </div>
 </div>
