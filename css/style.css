@@ -199,5 +199,14 @@ body {
 @media screen and (max-width: 500px) {
     .controls button {
         width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .controls .row {
+        width: 100%;
+    }
+
+    .controls .row .save-img {
+        margin-left: 0px;
     }
 }
