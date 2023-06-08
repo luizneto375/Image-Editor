@@ -7,6 +7,7 @@
     font-family: 'Lobster', cursive;
 }
 
+
 body {
     display: flex;
     padding: 10px;
@@ -16,6 +17,11 @@ body {
     background-color: #11131e;
 }
 
+
+audio {
+    width: 100%;
+    padding: 15px;
+}
 .container  {
     width: 850px;
     padding: 30px 35px 35px;
