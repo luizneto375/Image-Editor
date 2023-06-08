@@ -1,6 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family= Lagosta & display=swap') ;
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+}
+
+body {
+    display: flex;
+    padding: 10px;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #11131e;
+}
+
+.container {
+    width: 850px;
+    padding: 30px 35px 35px;
+    background-color: #11131e;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0);
+    color: #fff;
+}
+
+.container.disabled .editor-painel,
+.container.disabled .controls .reset-filter,
+.container.disabled .controls .save-img {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.container h2 {
+    margin-top: -8px;
+    font-size: 22px;
+    font-weight: 500;
 }
 
