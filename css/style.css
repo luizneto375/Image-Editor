@@ -34,7 +34,6 @@ body {
 
 .container h2 {
     margin-top: -8px;
-    margin-left: 172px;
     font-size: 22px;
     font-weight: 500;
 }
@@ -113,7 +112,7 @@ body {
 .editor-painel .rotate button {
     align-items: center;
     justify-content: center;
-    width: calc(100% / 4 -3px);
+    width: calc(100% / 4 - 3px);
 }
 
 .rotate .options button:nth-child(3),
@@ -178,7 +177,7 @@ body {
     border: 1px solid #5372f0;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 860px) {
     .container {
         padding: 25px;
     }
@@ -210,4 +209,11 @@ body {
     .controls .row .save-img {
         margin-left: 0px;
     }
+}
+
+@media screen and (min-width: 300px) {
+    .container {
+        width: 100%;
+    }
+    
 }
