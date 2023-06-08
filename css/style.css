@@ -16,7 +16,7 @@ body {
     background-color: #11131e;
 }
 
-.container {
+.container  {
     width: 850px;
     padding: 30px 35px 35px;
     background-color: #11131e;
@@ -34,6 +34,7 @@ body {
 
 .container h2 {
     margin-top: -8px;
+    margin-left: 172px;
     font-size: 22px;
     font-weight: 500;
 }
