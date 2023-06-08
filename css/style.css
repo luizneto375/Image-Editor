@@ -25,9 +25,9 @@ body {
     color: #fff;
 }
 
-.container.disabled .editor-painel,
-.container.disabled .controls .reset-filter,
-.container.disabled .controls .save-img {
+.container.disable .editor-painel,
+.container.disable .controls .reset-filter,
+.container.disable .controls .save-img {
     opacity: 0.5;
     pointer-events: none;
 }
